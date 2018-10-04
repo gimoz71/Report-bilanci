@@ -4261,6 +4261,10 @@ input:read-only {
     box-shadow: none;
 }
 
+.accordion .panel {
+    box-shadow: none !important;
+    border-bottom: none !important;
+}
 .accordion .panel-heading.complete {
     background-color: #dff0d8 !important;
 }
@@ -4285,4 +4289,37 @@ input:read-only {
 
 .table-clean {
     background-color: transparent;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    width: 1.5em; 
+    height: 1.5em;
+    margin-right: 10px;
+    background: url('/images/logo.svg') no-repeat center center;
+    background-size: contain;
+}
+
+.nav-sm .logo {
+    width: 2em;
+}
+
+ul.bar_tabs>li.active {
+    bottom: -1px;
+    border: none !important;
+    border-radius: 4px 4px 0 0;
+}
+
+ul.bar_tabs>li {
+    border-radius: 4px 4px 0 0;
+
+}
+
+ul.bar_tabs>li.active a {
+    border-bottom: none;
+    padding: 11px 17px;
+    top: -3px;
+    border-radius: 4px 4px 0 0;
 }
