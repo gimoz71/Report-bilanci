@@ -4327,3 +4327,14 @@ ul.bar_tabs>li.active a {
     top: -3px;
     border-radius: 4px 4px 0 0;
 }
+
+.warning {
+    color: #f0ad4e;
+}
+.success {
+    color: #1ABB9C;
+}
+.danger {
+    color: #d9534f;
+}
+
