@@ -4265,6 +4265,10 @@ input:read-only {
     box-shadow: none !important;
     border-bottom: none !important;
 }
+
+.accordion .panel-heading {
+    border-radius: 3px;
+}
 .accordion .panel-heading.complete {
     background-color: #dff0d8 !important;
 }
